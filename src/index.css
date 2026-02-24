@@ -44,3 +44,67 @@
 
   --font-size-body: 18px;
 }
+
+body{
+   background-color: var(--color-navy-950);
+   justify-content: center;
+   display: flex;
+}
+
+.container{
+   width: 500px;
+   height: 250px;
+   border-radius: 20px;
+   background-color: var(--color-work);
+   color: white;
+   font-family: var(--font-family-base);
+}
+
+#icon{
+   display: flex;
+   position: absolute;
+   padding-right: 10px;
+   justify-self: flex-end;
+}
+
+.displayBox{
+   position: absolute;
+   display: grid;
+   grid-template-columns: auto auto;
+   width: 500px;
+   height: 200px;
+   margin-top: 50px;
+   border-radius: 20px;
+   background-color: var(--color-navy-900);
+}
+
+#title{
+   justify-self: left;
+   padding-left: 25px;
+   align-self: flex-end;
+   font-weight: 500;
+   font-size: 25px;
+}
+
+#hrsTime{
+   font-size: 40px;
+   justify-self: left;
+   padding-left: 25px;
+   font-family: var(--font-weight-light);
+}
+
+#dotButton{
+   justify-self: right;
+   align-self: flex-end;
+   padding-right: 25px;
+   padding-bottom: 10px;
+}
+
+#lastWeek{
+   font-family: var(--font-weight-light);
+   color: var(--color-navy-200);
+   justify-self: right;
+   align-self: flex-start;
+   padding-top: 15px;
+   padding-right: 25px;
+}
